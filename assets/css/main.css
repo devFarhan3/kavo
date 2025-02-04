@@ -2886,6 +2886,7 @@ line-height: clamp(40px, 5vw, 55px);
   text-align: center;
   color: #000000;
   max-width: 280px;
+  margin-bottom: 0px;
 }
 
 .cards_boxes {
@@ -3028,4 +3029,60 @@ margin-bottom: 30px;
 
 .mar_top {
   margin-top: 75px;
+}
+
+
+/* farhan media query css for kava */
+
+
+@media (max-width: 640px) {
+  .cards_boxes::before{
+    display: none;
+  }
+
+  .desc_sec {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.desc_sec p {
+
+  max-width: 100%;
+}
+
+.how_works , .Why_Choose {
+  
+  padding-bottom: 50px;
+}
+
+.hero {
+ 
+  padding: 70px 0 50px 0;
+
+}
+
+.mobile-nav-toggle {
+  color: #fff;
+
+}
+
+#flag_dd {
+  margin-left: 0;
+}
+
+.main_desc {
+
+  padding-top: 10px;
+  max-width: 100%;
+}
+
+.qr_img img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  width: 300px;
+}
+
+.mar_top {
+  margin-top: 0px;
+}
 }
