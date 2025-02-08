@@ -29,9 +29,7 @@
   <!-- flag css -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" />
 </head>
-
 <body class="index-page">
-
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
@@ -41,35 +39,18 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">How It Works?</a></li>
-          <li><a href="#about">Careers</a></li>
-          <li><a href="#services">Contact US</a></li>
+          <li><a href="#how_works" class="active">How It Works?</a></li>
+          <li><a href="#Join_Our_Team">Careers</a></li>
+          <li><a href="#footer">Contact US</a></li>
           <li>
             <a class="btn-getstarted flex-md-shrink-0" href="#">Partner Login</a>
           </li>
           <li>
-            <div class="dropdown" id="flag_dd">
-              <button class="btn  dropdown-toggle" type="button" id="flag_dd" data-bs-toggle="dropdown"
-                aria-expanded="false"><span class="flag-icon flag-icon-us"></span> <span>ENG</span></button>
-              <ul class="dropdown-menu" aria-labelledby="flag_dd">
-                <li>
-                  <a class="dropdown-item active" href="#"><span class="flag-icon flag-icon-us me-1"></span>
-                    <span>English</span></a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-fr me-1"></span>
-                    <span>French</span></a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-es me-1"></span>
-                    <span>Spanich</span></a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-sa me-1"></span>
-                    <span>Arabic</span></a>
-                </li>
-              </ul>
-            </div>
+
+            <div class="gtranslate_wrapper" id="flag_dd"></div>
+            <script>window.gtranslateSettings = { "default_language": "en", "languages": ["en", "fr"], "wrapper_selector": ".gtranslate_wrapper", "switcher_horizontal_position": "right", "switcher_vertical_position": "top", "float_switcher_open_direction": "bottom", "alt_flags": { "en": "usa" } }</script>
+            <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+
           </li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -141,7 +122,7 @@
             </div>
           </div><!-- End Card Item -->
           <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
-            <div class="cards_boxes">
+            <div class="cards_boxes arrow_none">
               <div class=" qr_img">
                 <img src="assets/img/im.webp" class="img-fluid" alt="mobile">
 
@@ -161,7 +142,7 @@
 
     <!-- Why_Choose Section -->
     <section id="Why_Choose" class="Why_Choose ">
-      <div class="container text-center aos-init aos-animate pb_35" data-aos="fade-up">
+      <div class="container text-center  pb_35" data-aos="fade-up">
         <h1 class="main_heading">Why Choose Kavoo?</h1>
         <p class="main_desc">An AI-Powered, fully automated customer experience loop that guarantees 100% engagement
           with every feedback
@@ -170,7 +151,7 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4">
 
-          <div class="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3 col-md-6 " data-aos="fade-up" data-aos-delay="100">
             <div class="cards_boxes">
               <div class=" qr_img">
                 <img src="assets/img/c1.svg" class="img-fluid" alt="mobile">
@@ -182,7 +163,7 @@
 
           </div>
 
-          <div class="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-3 col-md-6 " data-aos="fade-up" data-aos-delay="200">
             <div class="cards_boxes">
               <div class=" qr_img">
                 <img src="assets/img/c2.svg" class="img-fluid" alt="mobile">
@@ -194,7 +175,7 @@
 
           </div>
 
-          <div class="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-3 col-md-6 " data-aos="fade-up" data-aos-delay="300">
             <div class="cards_boxes">
               <div class=" qr_img">
                 <img src="assets/img/c3.svg" class="img-fluid" alt="mobile">
@@ -206,7 +187,7 @@
 
           </div>
 
-          <div class="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-3 col-md-6 " data-aos="fade-up" data-aos-delay="300">
             <div class="cards_boxes">
               <div class=" qr_img">
                 <img src="assets/img/c4.svg" class="img-fluid" alt="mobile">
@@ -229,17 +210,114 @@
     <!-- /Why_Choose Section -->
 
 
+    <!-- Join Our Team Section -->
+    <section id="Join_Our_Team" class="Join_Our_Team">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-3">
+          <div class="col-lg-7 col-md-7 col-sm-12 col-12">
+            <div class="join_heading">
+              <h1 class="main_heading">Join Our Team</h1>
+              <p class="main_desc text-start pb_25">
+                At Kavoo, we are on a mission to revolutionize customer engagement and experience using AI. Join a team
+                of passionate innovators and problem-solvers who are shaping the future of customer insights and
+                experiences.
+              </p>
+
+              <div class="join_btn col-md-6 mx-auto">
+                <a href="#" class="btn-get-started me-lg-2 mb-lg-0 mb-sm-3 mb-3" data-bs-toggle="modal"
+                  data-bs-target="#join_team">Submit Your Resume </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-5 col-sm-12 col-12">
+            <div class="join_img">
+              <img src="assets/img/join-img.svg" alt="join" class="img-fluid">
+            </div>
+          </div>
+
+          <div class="join_team">
+            <div class="subheading text-center pb_35">
+              <h6>Join Our Team & Shape the Future of AI-Powered Customer Experience!</h6>
+            </div>
+
+            <div class="row gy-3">
+              <div class="col-lg-3 col-md-6 " data-aos="fade-up" data-aos-delay="100">
+                <div class="cards_boxes_new">
+                  <div class=" qr_img">
+                    <img src="assets/img/ie.svg" class="img-fluid" alt="mobile">
+                  </div>
+                  <div class="desc_sec">
+                    <h3>Automated Responses</h3>
+                    <p>Work with cutting-edge AI technology.</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-lg-3 col-md-6 " data-aos="fade-up" data-aos-delay="200">
+                <div class="cards_boxes_new">
+                  <div class=" qr_img">
+                    <img src="assets/img/rf.svg" class="img-fluid" alt="mobile">
+                  </div>
+                  <div class="desc_sec">
+                    <h3>Remote Flexibility</h3>
+                    <p>Collaborate from anywhere.</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-lg-3 col-md-6 " data-aos="fade-up" data-aos-delay="300">
+                <div class="cards_boxes_new">
+                  <div class=" qr_img">
+                    <img src="assets/img/cg.svg" class="img-fluid" alt="mobile">
+                  </div>
+                  <div class="desc_sec">
+                    <h3>Career Growth</h3>
+
+                    <p>Continuous learning & development.</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-lg-3 col-md-6 " data-aos="fade-up" data-aos-delay="300">
+                <div class="cards_boxes_new">
+                  <div class=" qr_img">
+                    <img src="assets/img/sc.svg" class="img-fluid" alt="mobile">
+                  </div>
+                  <div class="desc_sec">
+                    <h3>Supportive Culture</h3>
+
+                    <p>Inclusive and dynamic workplace.</p>
+                  </div>
+                </div>
+
+              </div>
+
+
+
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- /Join Our Team Section -->
 
 
   </main>
 
   <footer id="footer" class="footer">
-
     <div class="footer-newsletter">
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-lg-12">
-            <h4 class="main_heading">Ready to Transform Your Customer Experience?</h4>
+            <h4 class="main_heading mb-3">Ready to Transform Your Customer Experience?</h4>
             <p>Take the first step toward effortless customer engagement with Kavoo’s seamless experience solution.</p>
 
           </div>
@@ -253,7 +331,7 @@
       </div>
     </div>
 
-    <div class="container-gluid footer-top ">
+    <div class="container-fluid footer-top ">
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 footer-about ">
@@ -292,7 +370,7 @@
               <h4>Social Media</h4>
 
               <div class=" d-flex sm_icons">
-                <a href="" class="me-2">
+                <a href="" class="me-3">
                   <span><svg width="15" height="27" viewBox="0 0 15 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M10.8251 0C9.01237 0 7.27387 0.7209 5.99207 2.00411C4.71026 3.28732 3.99015 5.02773 3.99015 6.84247V10.6521H0.332512C0.149261 10.6521 0 10.8 0 10.9849V16.0151C0 16.1985 0.147783 16.3479 0.332512 16.3479H3.99015V26.6671C3.99015 26.8506 4.13793 27 4.32266 27H9.34729C9.53054 27 9.6798 26.8521 9.6798 26.6671V16.3479H13.37C13.5222 16.3479 13.6552 16.2444 13.6921 16.0964L14.9483 11.0663C14.9606 11.0172 14.9617 10.966 14.9512 10.9164C14.9408 10.8669 14.9193 10.8204 14.8882 10.7804C14.8572 10.7405 14.8174 10.7082 14.772 10.6859C14.7266 10.6637 14.6767 10.6521 14.6261 10.6521H9.6798V6.84247C9.6798 6.6919 9.70943 6.5428 9.76699 6.40369C9.82454 6.26458 9.90891 6.13818 10.0153 6.03171C10.1216 5.92524 10.2479 5.84079 10.3868 5.78317C10.5258 5.72555 10.6747 5.69589 10.8251 5.69589H14.6675C14.8507 5.69589 15 5.54795 15 5.36301V0.332877C15 0.149425 14.8522 0 14.6675 0H10.8251Z"
@@ -301,7 +379,7 @@
                   </span>
                 </a>
 
-                <a href="" class="me-2">
+                <a href="" class="me-3">
                   <span>
                     <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
@@ -314,7 +392,7 @@
 
                   </span>
                 </a>
-                <a href="" class="me-2">
+                <a href="" class="me-3">
                   <span>
 
                     <svg width="35" height="28" viewBox="0 0 35 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -401,9 +479,186 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <!-- flag js -->
+  <!-- modal popup -->
+
+  <!-- Modal 1 -->
+  <div class="modal fade" id="join_team" tabindex="-1" aria-labelledby="join_teamLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- <div class="modal-header">
+        <h1 class="modal-title fs-5" id="join_teamLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div> -->
+        <div class="modal-body">
+
+          <div class="d-flex ">
+            <div>
+              <span class="arrrow_icon" data-bs-dismiss="modal" aria-label="Close">
+                <a href="#">
+                  <svg width="19" height="21" viewBox="0 0 35 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 11.5H33M2 11.5L11.5385 2M2 11.5L11.5385 21" stroke="black" stroke-width="3"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+
+              </span>
+            </div>
+
+            <div class="modal_heading mx-auto">
+              <h6>Join Our Team</h6>
+
+              <p>
+                We're looking for problem solvers, creative thinkers, and dedicated professionals who thrive in a
+                collaborative environment. If you're passionate about transforming customer experience with Artificial
+                Intelligence and want to be part of an innovative team, we’d love to hear from you!
+              </p>
+
+              <p>
+                We’re hiring for roles in engineering, sales, marketing, and more. Use the form below to submit your
+                resume and join us on this exciting journey.
+              </p>
+
+              <div class="form_job">
+                <div class="row gy-3">
+                  <div class="col-md-6">
+                    <div class="row g-3 align-items-center">
+                      <div class="col-auto pe-0 bg_gray">
+                        <label for="inputPassword6" class="col-form-label">First Name</label>
+                      </div>
+                      <div class="col-auto ps-0">
+                        <input type="password" id="password" class="form-control border-0" placeholder="Wendy">
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row g-3 align-items-center">
+                      <div class="col-auto pe-0 bg_gray">
+                        <label for="inputPassword6" class="col-form-label">Last Name</label>
+                      </div>
+                      <div class="col-auto ps-0">
+                        <input type="password" id="password" class="form-control border-0" placeholder="Wong">
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="row g-3 align-items-center">
+                      <div class="col-auto pe-0 bg_gray">
+                        <label for="inputPassword6" class="col-form-label">Email </label>
+                      </div>
+                      <div class="col-auto ps-0">
+                        <input type="email" id="email" class="form-control border-0" placeholder="abc@gmail.com">
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row g-3 align-items-center">
+                      <div class="col-auto pe-0 bg_gray">
+                        <label for="inputPassword6" class="col-form-label">Phone</label>
+                      </div>
+                      <div class="col-auto ps-0">
+                        <input type="text" id="Phone" class="form-control border-0" placeholder="123456789">
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
 
 
+            </div>
+          </div>
+
+          <div class="apply">
+            <h6 class="fw-bold mb-lg-3">Attach Your Resume</h6>
+            <div class="file  file_btn ">
+              <span class="me-2">
+                <svg width="27" height="25" viewBox="0 0 27 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.90559 17.4737C-1.42452 18.4061 -0.498953 8.15053 6.90559 9.08285C4.12889 -1.17269 19.8635 -1.17269 18.938 6.28589C28.1937 3.48892 28.1937 18.4061 19.8635 17.4737M8.75673 13.7445L13.3846 10.0152M13.3846 10.0152L18.0124 13.7445M13.3846 10.0152V24"
+                    stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+              </span>
+
+              <span>
+                Upload File
+              </span>
+              <input type="file" name="file" />
+            </div>
+
+
+
+
+            <div class="mb-3">
+              <label for="letter" class="form-label">
+                <h6 class="fw-bold">Cover Letter / Message</h6>
+              </label>
+              <textarea class="form-control" id="letter" rows="5"
+                placeholder="You can add a cover letter or a message to your resume."></textarea>
+            </div>
+
+            <button type="button" class="btn mb-3 float-end ms-3"
+              style="background-color: #0D99FF; border:1px solid #0D99FF;">
+
+              <span>
+                <strong class="text-white " data-bs-toggle="modal" data-bs-target="#thanks"> Submit</strong>
+              </span>
+            </button>
+            <button type="button" class="btn mb-3 float-end " data-bs-dismiss="modal">
+
+              <span>
+                Cancel
+              </span>
+            </button>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- modal 2 -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="thanks" tabindex="-1" aria-labelledby="thanksLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-body">
+          <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="thank_modal">
+            <div class="heading_secty pt-3 ">
+              <h5 class="text-center">Thank You for Your Application !</h5>
+
+              <p>Dear Candidate</p>
+              <p>
+                Thank you for submitting your resume! We appreciate your interest in joining our team and taking the
+                time to share your qualifications with us.
+              </p>
+
+              <p class="pb_25">Our team will review your application, and if there’s a potential fit, we’ll reach out to
+                discuss the next steps. In the meantime, feel free to explore more about our Kavoo and what we’re
+                building.</p>
+
+              <p class="mb-0">
+                Best regards,
+
+              </p>
+
+              <p> Kavoo Recruiting</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
