@@ -3316,6 +3316,10 @@ border-radius: 36px;
     border-radius: 50px;
 }
 
+.flag-icon-fr {
+  background-image: url(../flags/4x3/fr.svg);
+}
+
 /* farhan media query css for kava */
 
 
