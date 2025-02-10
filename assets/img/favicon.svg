@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- Background -->
+  <rect x="0" y="0" width="120" height="120" rx="24" fill="#FF8C00"/>
+  
+  <!-- Stylized 'K' -->
+  <path d="M30 30 L30 90 
+           M30 60 L60 30 
+           M30 60 L60 90" 
+        stroke="#FFFFFF" 
+        stroke-width="12" 
+        stroke-linecap="round"
+        fill="none"/>
+        
+  <!-- Question mark -->
+  <path d="M70 40 C90 40, 90 55, 80 65 C75 70, 75 75, 75 80" 
+        stroke="#FFFFFF" 
+        stroke-width="12" 
+        stroke-linecap="round"
+        fill="none"/>
+  
+  <!-- Question mark dot -->
+  <circle cx="75" cy="95" r="6" fill="#FFFFFF"/>
+  
+  <!-- Subtle gradient overlay for depth -->
+  <rect x="0" y="0" width="120" height="120" rx="24" 
+        fill="url(#gradient)" 
+        opacity="0.1"/>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="100%" style="stop-color:#000000"/>
+    </linearGradient>
+  </defs>
+</svg>
