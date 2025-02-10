@@ -166,7 +166,7 @@ h6 {
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
   padding: 6px 20px;
-  margin: 0 0 0 30px;
+  margin: 0 0 0 20px;
   transition: 0.3s;
   background: var(--btn-color);
   border-radius: 22px;
@@ -245,7 +245,7 @@ h6 {
   .navmenu a,
   .navmenu a:focus {
     color: var(--black-color);
-    padding: 0px 25px;
+    padding: 0px 20px;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
@@ -294,9 +294,9 @@ h6 {
     width: 100px;
   }
 
-  .navmenu .dropdown ul li {
+  /* .navmenu .dropdown ul li {
     min-width: 200px;
-  }
+  } */
 
   .navmenu .dropdown ul a {
     padding: 3px 13px;
@@ -2849,7 +2849,7 @@ section,
 }
 
 #flag_dd {
-  margin-left: 50px;
+  margin-left: 10px;
 }
 .btn-get-started {
   color: var(--contrast-color);
@@ -2864,7 +2864,7 @@ section,
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 20px;
   color: #030303;
 
   /* box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1); */
@@ -2913,12 +2913,14 @@ section,
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 400;
-  font-size: clamp(15px, 5vw, 20px);
+  font-size: clamp(15px, 5vw, 19px);
   line-height: clamp(20px, 5vw, 30px);
   text-align: center;
   color: #000000;
   max-width: 280px;
   margin-bottom: 0px;
+
+  
 }
 .cards_boxes {
   position: relative;
@@ -3203,7 +3205,7 @@ footer .footer-top {
   padding: 7px 20px;
   border: 1px solid #000000;
 border-radius: 35px;
-width: 180px;
+width: 230px;
 cursor: pointer;
 margin-bottom: 40px;
 &&:hover{
@@ -3308,10 +3310,24 @@ border-radius: 36px;
   margin: 0 auto;
 }
 
+.flag-icon{
+  width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+
 /* farhan media query css for kava */
 
 
 @media (max-width: 640px) {
+  .thank_modal {
+    padding: 20px 10px;
+}
+
+  #join_team .modal-body {
+  
+    padding: 40px 20px;
+}
 
   .join_team .desc_sec h3 {
     max-width: 100%;
